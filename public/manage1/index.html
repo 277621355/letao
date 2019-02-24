@@ -1,13 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
-</head>
-<body>
-    <h1>老子是首页</h1>     
-    <h2>asdfsadfa</h2>   
-</body>
+    <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="./cs/comon.css" />
+  </head>
+  <body>
+    <div class="m_left">
+      <div class="logo">
+        <a href="#">乐淘卖鞋</a>
+      </div>
+      <div class="user">
+        <img src="./images/1.jpg" alt="" />
+        <p>你看我美吗</p>
+      </div>
+      <ul class="nav" id="nav">
+        <li>
+          <a href="#"><i class="glyphicon glyphicon-user"></i> 用户管理</a>
+        </li>
+        <li>
+          <a href="#"><i class="glyphicon glyphicon-list"></i> 分类管理</a>
+        </li>
+        <ul class='hed'>
+          <li><a href="#">一级分类</a></li>
+          <li><a href="#">二级分类</a></li>
+        </ul>
+        <li>
+          <a href="#"><i class="glyphicon glyphicon-tags"></i> 商品管理</a>
+        </li>
+      </ul>
+    </div>
+    <div class="m_right">
+      <div class="top">
+        <a href="#" class="pull-left"
+          ><i class="glyphicon glyphicon-align-justify"></i
+        ></a>
+        <a href="#" class="pull-right" ><i class="glyphicon glyphicon-log-out"></i
+        ></a>
+      </div>
+      <div class="content">
+        <div class="container-fluid">
+          <ol class="breadcrumb">
+            <li><a href="#">管理系统</a></li>
+            <li class="active">首页</li>
+          </ol>
+        </div>
+        <div class="tu">
+            <div class="echa1"></div>
+            <div class="echa2 pull-right"></div>
+        </div>
+    </div>
+</div>
+                  
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal fade" tabindex="-1" id="logoutmodal">
+                            <div class="modal-dialog modal-sm">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="close" data-dismiss="modal"><span >&times;</span></button>
+                                  <h4 class="modal-title">温馨提示</h4>
+                                </div>
+                                <div class="modal-body">
+                                  <p class="red"><i class="glyphicon glyphicon-info-sign"></i>您确定要退出后台管理系统吗？</p>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                                  <button type="button" class="btn btn-primary" id="logoutBtn">退出</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- <div class="modal fade" tabindex="-1" id="logoutmodal">
+                                <div class="modal-dialog" role="document">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                      <h4 class="modal-title">Modal title</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                      <p>One fine body&hellip;</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                      <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div> -->
+                        
+    <script src="./lib/jquery/jquery.js"></script>
+    <script src="./lib/bootstrap/js/bootstrap.js"></script>
+    <script src="./lib/echarts/echarts.min.js"></script>
+    <script src="./js/islogin.js"></script>
+    <script src="./js/common.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
 </html>
